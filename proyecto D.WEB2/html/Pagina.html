@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Web Page</title>
+  <link rel="stylesheet" href="css/formato.css">
+</head>
+<body>
+  <header>
+   <div class="logo">
+    <img style="height: 200px;" src="imagenes/logo.png" alt="logo de la compañia" class="imagenes/logo.png">
+   </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a onclick="vercontenido('inicio')">INICIO</a></li>
+      <li><a onclick="vercontenido('QUIENES')">Quienes Somos</a></li>
+      <li><a onclick="vercontenido('servicio')">Nuestros Servicios</a></li>
+      <li><a onclick="vercontenido('ubication')">UBICACION</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <aside>
+        <h2></h2>
+        <img id="publi" src="https://cdn.myportfolio.com/83cdd47d-f7df-4d0b-a9bc-81dbe2aa37dd/61340a88-05d6-45e2-962a-d643c1b25d01_rw_1200.jpg?h=754625eba2e9c62bd2e1cf0294e3a9e6" alt="viajes">
+        <img style="height: 210px;" src="https://image.isu.pub/190212215705-551f9f1de4bd2e9fae41195fa116333c/jpg/page_1.jpg" alt="puno">
+        <br><br>
+
+    </aside>
+
+    <div id="inicio" class="inicio">
+      <h2 class="titulos">Bienvenidos</h2>
+      <p>Movil Turismo Perú, les da la bienvenida. Nuestros mas de 10 años de experiencias como agencia de viajes, y nuestra pasión por el turismo, nos convierten en una empresa sobresaliente que brinda los mejores programas de viajes tanto en el Perú. Lo invitamos a conocer nuestro maravilloso y variado país, rico en cultura, tradiciones, gastronomía y gente.Movil Turimos Perú lo asesorará y brindará la información más precisa sobre viajes, así como tarifas competitivas en paquetes y venta de boletos aéreos con la atención personalizada que se merece.</p>
+    </div>
+
+    <div id="QUIENES" class="inicio">
+      <h2 class="titulos">Quienes Somos</h2>
+      <p>Movil Turismo PERU , somos una agencia de Viajes y Operador de Turismo que cuenta con 10 años de experiencia ininterrumpida en el mercado. Somos una compañía líder especializada en la gestión de las necesidades de viajes, con una estructura organizacional que se adapta a las necesidades de cada cliente para ofrecerle un servicio específico e integral, que cuenta con herramientas tecnológicas innovadoras, asistencia personalizada.</p>
+
+      <p id="sub">Además, somos una empresa profesional de servicios, con amplio conocimiento y experiencia de las condiciones y recursos turísticos del mercado, manejamos el diseño y la realización de eventos, tours, circuitos y toda clase de actividades turísticas de gran demanda en segmentos y nichos de mercado de alto valor, ello nos clasifica como una DMC.</p>
+    </div>
+
+    <div id="servicio" class="inicio">
+      <h2 class="titulos">Nuestros Servicios</h2>
+      <img style="text-align: center; height: 250px; " src="https://www.ginatravel.com/wp-content/uploads/2019/04/paquetes-turisticos-a-mancora-arennas-de-mancora.jpg" alt=""><p style="text-align: center;">Mancora por 3D/2N</p>
+      <img style="text-align: center;height: 218px;" src="https://img1.wsimg.com/isteam/ip/313ba1ff-91f4-4aff-af6f-28ec873d53e8/paquete%20tours%20huaraz%203%20dias%202%20noches-0001.JPG" alt=""><p style="text-align: center;">Trujillo por 3D/2N</p>
+      <img style="text-align: center;height: 350px;" src="https://www.griceltravel.com/wp-content/uploads/2022/04/4.jpg" alt=""><p style="text-align: center;">Ayacucho por 2D/1N</p>
+      <img style="text-align: center;height: 350px;" style="float:right;" src="https://pbs.twimg.com/media/E_H4OVwXIAAFAVi.jpg" alt=""><p style="text-align: center;">Paracas Full Day</p>
+     <br><br>
+    </div>
+ 
+    <div id="ubication" class="inicio">
+      <h2 class="titulos">Nuestra Ubicación</h2>
+      <img style="height: 350px;" src="https://elcomercio.pe/resizer/4XKnhOGMfRNSRjN1xYEj_pkvbOs=/1200x900/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/UAGOCODQDJDNRG7KSJ7Z3PTJ2E.jpg" alt="">
+      
+    </div>
+
+    <aside class="opciones" >
+        <h2>Otros enlaces</h2>
+      <p>Paginas relacionadas</p>
+        <a href="http://www.fullviajes.net">Viajes</a>
+        <a href="https://www.viveyatravel.com/?gclid=CjwKCAjwt52mBhB5EiwA05YKo6gDZwEBacVJu8GDT9FTEgcUVjOdMA5xFwW7XHngMsPqkBxB4obIuBoCzCYQAvD_BwE">Viva Travel</a>
+        <a href="https://limatours.com.pe">Lima tours</a>
+    </aside>
+  </div>
+  <div class="icon">
+    <i class="fa fa-twitterr" id="twittwe"></i>
+    <i class="fa fa-facebook-square" id="facebook"></i>
+  </div>
+  <footer>
+    <p id="cont">Email: info@MovilTurismo.com.pe</p>
+    <p id="cont"> Av. 28 de julio 674, Miraflores Lima 18 - Peru</p>
+    <p id="cont">Telf: (51 - 1) 625-4444 Fax: (51 - 1) 625-4455</p>
+    <p style="text-align: center;">con apoyo de:</p>
+    <img style="text-align: center;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEAlkttTHCSEX4J8QOn-ufS3ditVhpQEdt9A&usqp=CAU" alt="">
+  </footer>
+  
+            
+  <script>    
+   
+    // function verinicio() {
+    //   console.log("SI ME ESTOY EJECUTANDO ");
+    //   document.getElementById("maininicio").style.display = "block";   
+    //   document.getElementById("mainservicio").style.display = "none";   
+    //   document.getElementById("mainwhois").style.display = "none";   
+    //   document.getElementById("mainubication").style.display = "none";       
+    // };
+    // function verservicio() {
+    //   console.log("SI ME ESTOY EJECUTANDO ");         
+    //   document.getElementById("maininicio").style.display = "none";   
+    //   document.getElementById("mainservicio").style.display = "block";   
+    //   document.getElementById("mainwhois").style.display = "none";   
+    //   document.getElementById("mainubication").style.display = "none";    
+    // };
+
+    function vercontenido(params) {
+      // document.getElementsByClassName("inicio").style.display = "none";    
+      const boxes = document.getElementsByClassName('inicio');
+
+        for (const box of boxes) {
+          //box.style.backgroundColor = 'purple';
+          box.style.display = 'none';
+        }   
+        document.getElementById(params).style.display = "block";     
+        // switch (params) {
+        //   case '1':
+        //     document.getElementById("mainwhois").style.display = "block";   
+        //     break;
+        //   case '2':
+        //     document.getElementById("mainwhois").style.display = "block";   
+        //     break;
+        //   case '3':
+        //     document.getElementById("mainwhois").style.display = "block";   
+        //     break;
+        //   case '4':
+        //     document.getElementById("mainubication").style.display = "block";   
+        //     break;
+        //   default:
+        //     break;
+        // }
+    } 
+
+  </script>  
+</body>
+</html>
